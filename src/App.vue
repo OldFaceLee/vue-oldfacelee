@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Home></Home>
-    <!--router-view/-->
   </div>
 </template>
 
@@ -10,13 +9,17 @@ import Home from './components/Home'
 import Index from './components/Index'
 import TestCase from './components/TestCase'
 import TestSuite from './components/TestSuite'
+import SystemConfig from './components/SystemConfig'
+import Result from './components/Result'
 export default {
   name: 'App',
   components: {
     Home,
     Index,
     TestCase,
-    TestSuite
+    TestSuite,
+    SystemConfig,
+    Result
 
   }
 }

@@ -1,13 +1,13 @@
 <template>
-  <div class="hello">
-    <button @click='getHandle'>get请求</button>
-    <button @click='postHandle'>post请求</button>
+  <div class="testsuite">
+    <form></form>
+    <button @click="postHandle">发送请求</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'testsuite',
   data () {
     return {
       msg: '测试套件页面'

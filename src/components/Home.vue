@@ -9,7 +9,7 @@
           @open="handleOpen"
           @close="handleClose"
         >
-          <el-menu-item index="/index">
+          <!-- <el-menu-item index="/index">
             <i class="el-icon-location"></i>
             <span slot="title">首页导航</span>
           </el-menu-item>
@@ -21,9 +21,13 @@
             <i class="el-icon-document"></i>
             <span slot="title">测试用例</span>
           </el-menu-item>
-          <el-menu-item index="4">
+          <el-menu-item index="/systemConfig">
             <i class="el-icon-setting"></i>
             <span slot="title">系统配置</span>
+          </el-menu-item> -->
+          <el-menu-item index="/result">
+            <i class="el-icon-setting"></i>
+            <span slot="title">gis</span>
           </el-menu-item>
         </el-menu>
       </el-aside>
