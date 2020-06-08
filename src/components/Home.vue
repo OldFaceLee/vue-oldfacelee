@@ -27,14 +27,14 @@
           </el-menu-item> -->
           <el-menu-item index="/result">
             <i class="el-icon-setting"></i>
-            <span slot="title">gis</span>
+            <span slot="title">GIS</span>
           </el-menu-item>
         </el-menu>
       </el-aside>
 
       <el-container>
         <el-header>
-          <div>
+          <div style="display: flex; justify-self: right;">
             <el-avatar src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"></el-avatar>
           </div>
         </el-header>
